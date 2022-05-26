@@ -1,0 +1,37 @@
+html{
+    background-color: #B7E5DD;
+    font-family: 'Merriweather';/*字體可以去 https://fonts.google.com/ 找，找到後要在html檔的head中加入link標籤*/   
+}
+body{
+    background-color: #F1F0C0;
+    margin:  30 auto;           /*left&right top&bottom*/
+    border: 5px solid black;  /*width style color*/
+    padding: 0 20px 20px 20px;  /*top right bottom left*/
+}
+
+
+h1{
+    color: #006E7F;
+    margin: 0;
+    font-style: oblique;
+    text-shadow: 3px 3px 1px gray; /*horizontal vertical radius color*/
+}
+h2{
+    color: #F8CB2E;
+}
+h3{
+    color: #EE5007;
+}
+ul{
+    color: #B22727;
+}
+p{
+    color: black;
+}
+
+#header_img{ /*使用id來美化特定元素*/
+    width: 150px;
+}
+#important{
+    color: rgb(0, 166, 255);
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="styles/style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Merriweather:ital,wght@1,300&display=swap" rel="stylesheet">
+        <title>mozilla_網頁教學範例</title>
+    </head>
+    <body>
+        <h1>知識整理</h1>
+            <img id="header_img" src="images/hello_world.jpeg" alt="hello_world">
+            <button>change name</button>
+        <h2>HTML</h2>
+            <p>HTML全名為HyperText Markup Language，由一系列的元素(elements)組成</p>
+        <h3>元素種類如下</h3>
+            <ul>
+                <li>元素(elements)</li>
+                <img src="images/html-element.png" alt="HTML元素範例圖">
+                <li>巢狀元素(nesting elements)</li>
+                <p>My cat is <strong>very</strong> grumpy.</p>
+                <li>空元素(empty elements)</li>
+                <p>img標籤沒有結尾，屬於一種空標籤</p>
+            </ul> 
+            <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics#empty_elements">html basic</a>
+        <h2>CSS</h2>
+            <p>使用選擇器(selector)或id美化元素</p>
+        <h2>JavaScript</h2>
+            <p>JavaScript用於處理網頁的互動，例如:Event, Function......</p>
+            <p id="important"><strong>請記得分檔案邊寫腳本</strong></p>
+        <h3>變數</h3>    
+            <ul>
+                <li>var</li>
+                <p>儲存<strong>可變動的</strong>數值、文字，屬於函式作用域。</p>
+                <p>若應用於<strong>if、else、while、for</strong>的話，會發生此變數從區域變數變成全域變數的情況。</p>
+                <li>let</li>
+                <p>儲存<strong>可變動的</strong>數值、文字，作用域為其所包含的{}。</p>
+                <p>於全域呼叫的變數與函式內呼叫的變數不會起衝突。</p>
+                <li>const</li>
+                <p>儲存<strong>不可變動的</strong>數值、文字，需要在宣告時設定常數。</p>
+            </ul>
+        <h3>方法(Method)</h3>
+            <ul>
+                <li>querySlector</li>
+                <li>getElementById</li>
+            </ul>
+        <h3>函式(Function)</h3>
+            <ul>
+                <li>alert</li>
+                <p>alert('字串')</p>
+                <p>將字串以彈跳視窗的方式呈現於網頁上方。</p>
+                <li>prompt</li>
+                <p>prompt('字串')</p>
+                <p>與alert函式同理，但多了一條輸入框格，拿到輸入資料。</p>
+            </ul>
+        <h3>事件(Event)</h3>
+            <p></p>
+        <h3>addEventListener事件 V.S. onclick事件</h3>
+            <p>錯誤寫法：obj.onclick= fn(param)或obj.onclick= fn():
+               因為這樣寫函式會立即執行，不會等待點選觸發，特別注意一下</p>
+        <script src="scripts/main.js"></script>
+    </body>
+</html>
